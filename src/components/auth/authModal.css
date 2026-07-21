@@ -1,0 +1,114 @@
+/* တစ်ပြင်လုံးကို မှောင်ချလိုက်မယ့် Overlay */
+.auth-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2500;
+}
+
+/* Form ဘောက်စ် ပတ်လည်အလှဆင်ခြင်း */
+.auth-container {
+  background-color: var(--white-color);
+  width: 420px;
+  max-width: 90%;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  overflow: hidden; /* Slider အပြင်ဘက်ကို ဘောင်မကျော်အောင် */
+  padding: 2.5rem 1.5rem;
+}
+
+/* close btn */
+.auth-close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 10;
+  color: var(--text-color);
+}
+
+.auth-close-btn:hover {
+  color: var(--first-color);
+}
+
+.auth-form-wrapper {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.auth-form-wrapper h2 {
+  margin-bottom: 0.5rem;
+  color: var(--title-color, #111);
+}
+
+.auth-form-wrapper p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+/* Form inputs & Button */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.auth-form input {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.auth-form input:focus {
+  border-bottom: 2px solid var(--first-color);
+}
+
+.auth-submit-btn {
+  background-color: var(--first-color, #ff6b6b);
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.auth-submit-btn:hover {
+  opacity: 0.9;
+}
+
+/* Login <-> Sign Up ကူးပြောင်းမယ့် စာသားခလုတ် */
+.auth-switch {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.auth-switch span {
+  color: var(--first-color, #ff6b6b);
+  cursor: pointer;
+  font-weight: 600; 
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.auth-switch span:active {
+  transform: scale(0.92);
+}

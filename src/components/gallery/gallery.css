@@ -1,0 +1,21 @@
+.gallery {
+  padding-bottom: 0;
+}
+
+.gallery-container {
+  column-count: 3;
+  column-gap: 1.5rem;
+}
+
+.gallery-item {
+  border-radius: 2rem;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.gallery-img {
+  width: 100%;
+  display: block;
+  height: auto;
+  box-shadow: var(--box-shadow);
+}

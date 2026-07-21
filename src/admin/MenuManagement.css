@@ -1,0 +1,150 @@
+/* ================= ADD NEW MENU ITEM UI ================= */
+.admin-add-btn {
+
+  background: #2ecc71;
+  border: none;
+  color: var(--white-color);
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  transition: opacity 0.2s;
+}
+.admin-add-btn:hover {
+  opacity: 0.9;
+}
+
+/* ================= CATEGORY FILTER TABS ================= */
+.category-filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.filter-tab {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  color: #b3b3b3;
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.filter-tab:hover,
+.filter-tab.active {
+  background: var(--first-color);
+  color: #0c0f14;
+  border-color: var(--first-color);
+}
+
+/* ================= ADD NEW ITEM FORM STYLE ================= */
+.admin-add-form {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.admin-add-form h3 {
+  margin-bottom: 1.2rem;
+  font-size: var(--large-font-size);
+  color: var(--white-color);
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.admin-add-form input,
+.admin-add-form select,
+.admin-add-form textarea {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  color: var(--white-color);
+  font-size: var(--normal-font-size);
+  outline: none;
+}
+.admin-add-form input:focus,
+.admin-add-form select:focus,
+.admin-add-form textarea:focus {
+  border-color: var(--first-color);
+}
+
+.admin-add-form textarea {
+  width: 100%;
+  resize: vertical;
+  margin-bottom: 1rem;
+}
+
+.form-submit-btn {
+  background: var(--first-color);
+  border: none;
+  color: #0c0f14;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Menu Image Thumbnail */
+.admin-menu-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 6px;
+  object-fit: cover;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.badge-category {
+  background: rgba(52, 152, 219, 0.15);
+  color: #3498db;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.text-price {
+  color: #2ecc71;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+/* File Input Wrapper */
+.file-input-wrapper input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  color: #b3b3b3;
+  cursor: pointer;
+  font-size: var(--normal-font-size);
+  transition: all 0.2s;
+  height: 100%;
+}
+
+.custom-file-upload:hover {
+  border-color: var(--first-color);
+  color: var(--white-color);
+}

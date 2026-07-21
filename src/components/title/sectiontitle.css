@@ -1,0 +1,39 @@
+.section-subtitle {
+    color: var(--first-color);
+    font-family: var(--second-font);
+    font-size: var(--h2-font-size);
+    position: relative;
+    font-weight: bold;
+}
+
+.section-subtitle::before,
+.section-subtitle::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-subtitle::before {
+    bottom: -3px;
+    width: 70%;
+    height: 4px;
+    background: linear-gradient(
+        to right,
+        transparent, 
+        var(--first-color) 10%, 
+        var(--second-color) 90%, 
+        transparent
+    );
+    border-radius: 1rem;
+}
+
+.section-title {
+    font-size: var(--h2-font-size);
+    max-width: 550px;
+    margin: 1rem auto 3rem;
+}
+
+.section-title span{
+    color: var(--first-color);
+}

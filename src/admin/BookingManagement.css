@@ -1,0 +1,81 @@
+.refresh {
+  padding: 10px;
+  font-size: var(--normal-font-size);
+}
+/* Customer Name & Email Wrapper */
+.customer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-name {
+  font-weight: 600;
+  color: var(--white-color);
+}
+
+.customer-email {
+  font-size: var(--table-font-size-desktop);
+  color: #8a8f98;
+  margin-top: 0.2rem;
+}
+
+.booking-datetime {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-time {
+  font-size: var(--table-font-size-desktop);
+  color: var(--first-color);
+  display: flex;
+  align-items: center;
+  column-gap: 0.3rem;
+  margin-top: 0.2rem;
+}
+
+.badge-guests {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0.5rem 0.5rem;
+  border-radius: 4px;
+
+  font-size: 0.85rem;
+  line-height: 1;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.admin-table th:nth-child(3),
+.admin-table td:nth-child(3) {
+  width: 10px;
+  text-align: center;
+}
+
+/* ================= STATUS BADGES ================= */
+.status-badge {
+  padding: 0.35rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.status-badge.pending {
+  background: rgba(241, 196, 15, 0.15);
+  color: #f1c40f;
+}
+
+.status-badge.confirmed {
+  background: rgba(46, 204, 113, 0.15);
+  color: #2ecc71;
+}
+
+.status-badge.cancelled {
+  background: rgba(231, 76, 60, 0.15);
+  color: #e74c3c;
+}
+
+
