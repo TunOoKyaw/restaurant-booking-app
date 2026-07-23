@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import logo from "../../assets/logo.png";
 import { navLinks } from "../../Data";
-import Scrolllink from "../link/Scrolllink";
+import Scrolllink from "../link/ScrollLink";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { IoMenu } from "react-icons/io5";
 import { FiLogIn, FiLogOut, FiSettings } from "react-icons/fi";

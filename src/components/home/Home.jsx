@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import { homeSlide } from "../../Data";
 import parse from "html-react-parser";
-import Scrolllink from "../link/Scrolllink";
+import Scrolllink from "../link/ScrollLink";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 

@@ -9,7 +9,7 @@ import {
   FaYoutube,
 } from "react-icons/fa6";
 import { footerLinks } from "../../Data";
-import Scrolllink from "../link/Scrolllink";
+import Scrolllink from "../link/ScrollLink";
 import { Link, animateScroll } from "react-scroll";
 
 import "./footer.css";

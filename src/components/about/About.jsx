@@ -3,7 +3,7 @@ import aboutImg1 from "../../assets/about-1.jpg";
 import aboutImg2 from "../../assets/about-2.jpg";
 import dataImg1 from "../../assets/quality.svg";
 import dataImg2 from "../../assets/delicious.svg";
-import Scrolllink from "../link/Scrolllink";
+import Scrolllink from "../link/ScrollLink";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import SectionTitle from "../title/SectionTitle";
 

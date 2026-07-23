@@ -3,7 +3,6 @@ import SectionTitle from "../title/SectionTitle";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import Stars from "../stars/Stars";
-import Quote from "../../assets/quote.svg";
 import dummyImg from "../../assets/dummy.jpg"; 
 import { reviewItem } from "../../Data";
 
@@ -46,7 +45,6 @@ const Reviews = () => {
           return (
             <SwiperSlide className="reviews-item" key={index}>
               <div className="reviews-bg">
-                <img src={Quote} alt="" className="reviews-quote" />
 
                 <div className="reviews-data">
                   
