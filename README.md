@@ -4,7 +4,7 @@ This is a production-ready **Restaurant Website** built using React (npm) for th
 
 The live application is fully deployed and accessible via **Vercel**.
 
-🌐 **Live Demo Link:** [Coming Soon / Deploying via Vercel]()
+🌐 **Live Demo Link:** [https://restaurant-booking-app-nxzi.vercel.app/](https://restaurant-booking-app-nxzi.vercel.app/)
 
 ---
 
